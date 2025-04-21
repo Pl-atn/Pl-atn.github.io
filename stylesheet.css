@@ -3,6 +3,23 @@ h1 {
     font-family: "Special Gothic Expanded One", sans-serif;
 }
 h2 {
-  color: darkslateblue;
+  color: rgb(85, 72, 175);
   font-family: "Special Gothic Expanded One", sans-serif;
+}
+h3 {
+  color: rgb(117, 103, 209);
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+}
+li {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: rgb(19, 8, 41);
+  color: aliceblue;
+}
+footer {
+  font-family: "Montserrat", sans-serif;
 }

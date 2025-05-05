@@ -1,3 +1,5 @@
+{margin: 0; padding: 0;}
+
 h1 { 
   color: rgb(85, 72, 175);
     font-family: "Special Gothic Expanded One", sans-serif;
@@ -38,7 +40,11 @@ a {
   font-size: 1em;
   text-align: match-parent;
   line-height: 1.5em;
-  list-style-type: square;
+
+}
+
+ul{
+    list-style-type: square;
 }
 
 a:link {
@@ -61,6 +67,8 @@ img {
   width: 60%;
   height: 60%
 }
+
+  
 body {
   background-color: rgb(19, 8, 41);
   color: aliceblue;

@@ -1,13 +1,29 @@
-{margin: 0; padding: 0;}
+* {margin: 0; padding: 0;}
 
 #wrapper { 
   width: 80%; 
   margin: auto; 
-  }
+  } 
+  .column { 
+  width: 33.33%; 
+  float: left; 
+  margin: 10%; 
+  } 
+  @media only screen and (max-width: 400px) { 
+  .column { 
+  width: 100%; 
+  float: left; 
+  margin: 0%; 
+  } 
+  header {
+  padding-top: 120px;
+  }  
+}
+  
 header {
   width: 100%;
   margin: 1em 0;
-  padding: 1em; 
+  padding-top: 60px; 
 }
 
 nav {
@@ -17,7 +33,7 @@ nav {
   position: fixed; 
   top: 0; 
   left: 0; 
-  z-index: 2;
+  z-index: 1;
 }
 
 h1 { 
@@ -95,7 +111,7 @@ li a:hover {
   background-color: rgb(34, 24, 71);
 }
 .columns {
-  display: inline-block;
+  display: inline;
   float: left;
   padding-top: 1.5em;
   padding-bottom: 0.5em;

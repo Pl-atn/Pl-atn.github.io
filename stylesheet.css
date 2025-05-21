@@ -16,25 +16,26 @@
   margin: 0%; 
   } 
   header {
-  padding-top: 120px;
+  padding-top: 140px;
   }  
-}
-  
-header {
-  width: 100%;
-  margin: 1em 0;
-  padding-top: 60px; 
 }
 
 nav {
-  width: 100%;
-  margin: 0;
-  padding: 0; 
   position: fixed; 
   top: 0; 
-  left: 0; 
-  z-index: 1;
+  margin: 0;
+  padding: 0; 
+  z-index: 1000; /* ensuare nav stays on top */
+  width: 100%;
+}  
+
+header {
+  width: 100%;
+  margin: 1em 0;
+  padding-top: 100px; 
 }
+
+
 
 h1 { 
   color: rgb(85, 72, 175);
@@ -62,7 +63,11 @@ h3 {
    text-decoration-style: solid;
    text-transform: uppercase;
 }
-
+h4 {
+  font-family: "Montserrat", sans-serif;
+     font-size: 1em;
+     font-weight: regular;
+}
 p {
   font-family: "Montserrat", sans-serif;
   font-size: 1em;

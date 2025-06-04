@@ -108,20 +108,24 @@ h5,
 
 .button-danger, .button-danger2, .button-danger3, .button-danger4, .button-danger5 {
   position: relative;
-  left: auto;
+  left: -37px;
   top: auto;
   width: auto;
-  min-width: 180px;
+  min-width: 205px;
   max-width: 250px;
   height: auto;
   padding: 0px 10px;
+  padding-left: 35px;
   margin-top: auto;
   border-radius: 50px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
+  
 }
+
+
 
 .side-title-00 {
   font-family: "Bricolage Grotesque", sans-serif;
@@ -146,6 +150,8 @@ h5,
   font-weight: 400;
   position: relative;
 }
+
+
 .arrow-right {
   border-radius: 47px;
   flex-shrink: 0;

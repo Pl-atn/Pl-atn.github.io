@@ -1,0 +1,144 @@
+@media only screen and (max-width: 48em) {
+  .component-12 {
+    top: 0;
+    margin-top: 0;
+  }
+  .learn-more {
+    font-size: 1.75em;
+  }
+}
+
+@media only screen and (max-width: 34.375em) {
+  .columns {
+    margin-bottom: 1.25em;
+  }
+  .first-paragraph, .second-paragraph, .third-paragraph {
+    font-size: 1em;
+  }
+  .learn-more {
+    font-size: 1.5em;
+  }
+  .arrow-right {
+    width: 36px;
+    height: 36px;
+  }
+  .button-danger {
+    padding: 8px 16px;
+    margin-top: 1.5em;
+  }
+  .vaundy-seeklogo-1 {
+    margin-bottom: 2.5em;
+  }
+}
+
+a,
+button,
+input,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    background: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+.wireframe-2,
+.wireframe-2 * {
+  box-sizing: border-box;
+}
+
+.wireframe-2 {
+  background: #ffffff;
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.vaundy-image-1 {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1561.9/820;
+  display: block;
+}
+.vaundy-image-12 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.component-12 {
+  width: 90%;
+  height: auto;
+  max-width: 52.625em;
+  margin: 2em auto;
+}
+.vaundy-seeklogo-1 {
+  width: 65.57%;
+  height: auto;
+  max-height: 6.625em;
+  position: center;
+  object-fit: contain;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3.5em;
+  display: block;
+  aspect-ratio: 552.08/106;
+}
+.first-paragraph, .second-paragraph, .third-paragraph {
+  color: #000000;
+  text-align: center;
+  font-family: "BricolageGrotesque", sans-serif;
+  font-size: 1.25em;
+  font-weight: 400;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+.third-paragraph {
+  margin-bottom: 0;
+}
+
+
+
+.button-danger {
+  background: #000000;
+  border-radius: 50px;
+  padding: 4px 20px;
+  display: inline-flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px;
+  max-width: 90%;
+  margin-top: 2em;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.learn-more {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BricolageGrotesque", sans-serif;
+  font-size: 2em;
+  line-height: 100%;
+  font-weight: 400;
+  position: relative;
+}
+.arrow-right {
+  border-radius: 47px;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: visible;
+}

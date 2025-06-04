@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link href="normalize.css" type="text/css" rel="stylesheet" />
+    <link href="skeleton.css" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Page 8</title>
+  </head>
+  <body>
+    
+    <img
+      class="_1-qpre-xba-pqk-4-mp-jt-in-n-a-a-1"
+      src="_1-qpre-xba-pqk-4-mp-jt-in-n-a-a-10.png"
+    />
+    <a href="../page 3/index.html" class="chevrons-left-link">
+      <img class="chevrons-left" src="chevrons-left0.svg" />
+    </a>
+    <div class="wireframe-8"> 
+      <div class="container">
+     
+
+        <div class="row main-content-row">
+          <div class="six columns image-column">
+            
+            <img class="tokyo-flash-1 responsive-img" src="tokyo-flash-10.png" />
+            <img class="r-2 responsive-img" src="r-20.png" />
+          </div>
+          <div class="six columns text-column">
+            <img class="artboard-1-1 responsive-img" src="artboard-1-10.png" />
+            <div class="component-6" id="scrollable-component">
+              <div class="Introduction-of-tokyo-flash">
+                <div class="text-1">
+                  <span>
+                    <span class="text-1-2">
+                      "Tokyo Flash" (東京フラッシュ) became Vaundy's breakthrough
+                      moment. Released in November 2019, the song surpassed 1 million
+                      views within two months of its release. This put Vaundy's name
+                      in the spotlight, helping him to get recognized in the music
+                      industry.
+                      <br />
+                      In a 2020 interview, Vaundy shared that he frequently listened
+                      to city pop while creating this song.
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="text-2">
+                <div class="text-2-2">
+                  The music video for "Tokyo Flash," which was released on YouTube in
+                  September 2019, was shot late at night in Shinjuku, Ueno, Shibuya,
+                  Asakusa, and other places that evoke a sense of Tokyo. The director
+                  is MIZUNO CABBAGE, who is an old friend of Vaundy and is also active
+                  as a VFX artist.
+                </div>
+              </div>
+              <div class="text-3">
+                <div class="text-3-2">
+                  His signature song, "Tokyo Flash," is a Vaundy-style city pop with
+                  catchy guitar riffs and mellow sounds. The music video is a one-shot
+                  video of Vaundy walking aimlessly through the streets of Tokyo late
+                  at night.
+                  <br />
+                  "When I made 'Tokyo Flash,' I was listening to a lot of city pop,
+                  and I listened to the songs that were selling right now and the ones
+                  that were on a lot of playlists, and I was like, 'What do they have
+                  in common?' I thought about it as I made it. Also, I think melody is
+                  more important than anything else.
+                </div>
+              </div>
+              <div class="text-4">
+                <div class="text-4-2">
+                  The distinctive guitar riff that sounds from the beginning of this
+                  song is also a simple one that you can hum after one listen. In this
+                  day and age, many people listen to music by streaming, so if you
+                  think it's different, you'll be immediately skipped to another song.
+                  That's why it's so important to have a grip that makes you want to
+                  listen to it for more than five seconds.
+                </div>
+              </div>
+              <div class="text-5">
+                <div class="text-5-2">
+                  "The producer of 'Tokyo Love Story' told me that he wanted to use
+                  'Lamp' in a drama. This song is not a love song, but rather a song
+                  sung for the same generation, but when I saw the drama, I was really
+                  into it. It could be heard in the songs of each of the four main
+                  characters. In order for many people to listen to it, it may have
+                  been good to be aware that the songs can be perceived in a variety
+                  of ways.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="twelve columns">
+            <div class="playable-buttons">
+              <img class="skip-next-filled2" id="scroll-prev-button" src="skip-next-filled1.svg" />
+              <img class="arrow-right" src="arrow-right0.svg" />
+              <img class="skip-next-filled" id="scroll-next-button" src="skip-next-filled0.svg" />
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div> 
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const scrollableComponent = document.getElementById('scrollable-component');
+        const prevButton = document.getElementById('scroll-prev-button');
+        const nextButton = document.getElementById('scroll-next-button');
+        const scrollAmount = 300; 
+
+        if (scrollableComponent && prevButton && nextButton) {
+          prevButton.addEventListener('click', function() {
+            scrollableComponent.scrollLeft -= scrollAmount;
+          });
+
+          nextButton.addEventListener('click', function() {
+            scrollableComponent.scrollLeft += scrollAmount;
+          });
+        } else {
+          console.error('Scroll components not found!');
+        }
+      });
+    </script>
+  </body>
+</html>

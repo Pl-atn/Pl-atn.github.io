@@ -1,0 +1,176 @@
+/* General Reset and Body */
+a, button, input, select, h1, h2, h3, h4, h5, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    background: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+menu, ol, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  background-color: #000000; /* Fallback background */
+  color: #ffffff; /* Default text color */
+}
+
+/* Page Wrapper */
+.wireframe-10 {
+  width: 100%;
+  min-height: 100vh; /* Ensure it takes at least full viewport height */
+  height: auto; /* Allow content to define height */
+  position: relative;
+  overflow-x: hidden; /* Prevent horizontal scrollbars */
+  background-image: url('screenshot-488-10.png');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; /* Keeps background fixed during scroll */
+  padding-bottom: 40px; /* Space at the bottom */
+}
+
+/* Fixed Navigation */
+.fixed-chevrons-left {
+  position: fixed; /* Changed from absolute to ensure it's relative to viewport */
+  left: 20px;
+  top: 20px;
+  z-index: 1000;
+  width: 40px; /* Adjusted size */
+  height: 40px;
+}
+.fixed-chevrons-left img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Clearing old absolute positioning and fixed sizes for gridded elements */
+.image-section img, /* Applied to all images in this section */
+.group-9,
+.odoriko-1,
+._4-f-7-d-2-fe-8-aac-67-eafba-271-cbea-682-cc-56-1000-x-1000-x-1-1,
+.component-10 {
+  position: relative !important; /* Override inline/existing absolute */
+  left: auto !important;
+  top: auto !important;
+  width: auto !important; /* Will be handled by u-max-full-width or column */
+  height: auto !important;
+  margin-bottom: 20px; /* Add some space between stacked images/elements */
+}
+
+.image-section .group-9 {
+  max-width: 300px; /* Adjust title SVG size */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Text Component Styling */
+.component-10 {
+  padding: 20px; /* Add some padding inside the text column */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+  border-radius: 8px;
+  max-height: calc(100vh - 120px); /* Max height relative to viewport, considering padding/nav */
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+
+.component-10::-webkit-scrollbar {
+  display: none; /* Webkit */
+}
+
+.component-10 > div {
+  margin-bottom: 2em; /* Space between text paragraphs/sections */
+  text-align: left; /* Align text left for readability */
+  font-size: 1rem; /* Base font size, approx 16px */
+  line-height: 1.6;
+  height: auto !important; /* Override old fixed heights */
+}
+
+.component-10 > div:last-child {
+  margin-bottom: 0;
+}
+
+._2nd-span, ._3rd-span { /* Section titles within component-10 */
+  font-size: 1.5rem; /* Approx 24px */
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+/* Specific font styles from original CSS, converted to relative units or reviewed */
+._1st, ._2nd-span2, ._3rd-span2, ._4th, ._5th, ._6th, ._7th {
+  font-size: 1rem; /* Was 32px */
+  font-weight: 400;
+}
+
+/* Remove fixed heights from text blocks like ._1st, etc. as content will define it */
+._1st, ._2nd, ._3rd, ._4th, ._5th, ._6th, ._7th {
+    height: auto !important;
+    text-align: left;
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 768px) {
+  .fixed-chevrons-left {
+    width: 35px;
+    height: 35px;
+    left: 15px;
+    top: 15px;
+  }
+
+  .component-10 {
+    max-height: none; /* Allow content to flow naturally on smaller screens */
+    padding: 15px;
+  }
+
+  .component-10 > div {
+    font-size: 0.95rem;
+  }
+
+  ._2nd-span, ._3rd-span {
+    font-size: 1.3rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 550px) { /* Skeleton default mobile breakpoint */
+  .fixed-chevrons-left {
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    top: 10px;
+  }
+  .wireframe-10 .container .row {
+    padding-top: 60px !important; /* Ensure space for smaller chevron */
+  }
+
+  .component-10 {
+    padding: 10px;
+  }
+
+  .component-10 > div {
+    font-size: 0.9rem;
+    margin-bottom: 1.5em;
+  }
+
+  ._2nd-span, ._3rd-span {
+    font-size: 1.2rem;
+  }
+}
+
+/* Remove redundant or problematic old styles */
+.screenshot-488-1, 
+.odoriko-single, /* This class was in CSS but not HTML, removing to avoid confusion */
+.odoriko-single-span, 
+.odoriko-single-span2,
+.group-4 /* This was an unused full-screen overlay */ {
+  display: none !important; /* Hide them as they are replaced or unused */
+}

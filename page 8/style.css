@@ -1,0 +1,285 @@
+a,
+button,
+input,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    background: none;
+    -webkit-font-smoothing: antialiased;
+}
+menu, ol, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+ 
+}
+
+.wireframe-8 {
+  min-height: 100vh; 
+  position: relative;
+  overflow-x: hidden; 
+  padding-top: 90px; 
+  padding-bottom: 20px; 
+}
+
+._1-qpre-xba-pqk-4-mp-jt-in-n-a-a-1 {
+  position: fixed; 
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  filter: blur(10px);
+  z-index: -1; 
+}
+
+.container {
+  position: relative; 
+  z-index: 1; 
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block; 
+  margin-bottom: 15px; 
+}
+
+
+.image-column {
+
+}
+
+.tokyo-flash-1 {
+  position: relative;
+  top: 0;
+  left: -48px;
+  width: 150%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  z-index: 3;
+}
+
+.r-2 {
+  position: absolute;
+  top: 1px;
+  left: -100px; 
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  position: absolute;
+  z-index: 11;
+}
+
+.artboard-1-1 {
+
+  margin-bottom: 20px; 
+}
+
+.text-column {
+  color: #ffffff; 
+}
+
+.component-6 {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none; 
+  padding: 15px;
+  background-color: rgba(61, 95, 124, 0.4); 
+  border-radius: 8px;
+  width: 100%; 
+}
+
+.Introduction-of-tokyo-flash,
+.text-2,
+.text-3,
+.text-4,
+.text-5 {
+  flex-shrink: 0; 
+  position: relative; 
+  margin-bottom: 20px; 
+  padding: 10px;
+}
+
+.Introduction-of-tokyo-flash:last-child,
+.text-2:last-child,
+.text-3:last-child,
+.text-4:last-child,
+.text-5:last-child {
+  margin-bottom: 0;
+}
+
+.text-1,
+.text-2-2,
+.text-3-2,
+.text-4-2,
+.text-5-2 {
+  text-align: center; 
+  font-family: "BricolageGrotesque-Regular", sans-serif; 
+  font-size: 16px; 
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.fixed-chevrons-left {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  z-index: 1000;
+  width: 40px;
+  height: 40px;
+}
+.fixed-chevrons-left img {
+  width: 100%;
+  height: 100%;
+}
+
+.playable-buttons {
+  width: 100%; 
+  min-width: 380px; 
+  height: 120px; 
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  z-index: 100; 
+  margin-top: 2px;
+}
+
+.skip-next-filled, 
+.arrow-right,
+.skip-next-filled2 {
+ 
+  width: 60px; 
+  height: 60px;
+  margin: 0 15px; 
+  cursor: pointer;
+}
+
+
+.component-6 {
+  display: flex; 
+  flex-direction: row;
+  gap: 50px; 
+}
+.Introduction-of-tokyo-flash,
+.text-2,
+.text-3,
+.text-4,
+.text-5 {
+  width: 450px; 
+  flex-shrink: 0;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .main-content-row .six.columns {
+    width: 100%; 
+    margin-left: 0;
+  }
+  .image-column {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+  }
+  .tokyo-flash-1,
+  .artboard-1-1 {
+    max-width: 80%; 
+  }
+  .r-2 {
+    width: 75%;
+  }
+  .component-6 {
+    flex-direction: column; 
+    gap: 20px;
+    overflow-x: hidden; 
+    overflow-y: auto; 
+    max-height: 60vh;
+  }
+  .Introduction-of-tokyo-flash,
+  .text-2,
+  .text-3,
+  .text-4,
+  .text-5 {
+    width: 100%; 
+  }
+
+  #scroll-prev-button,
+  #scroll-next-button {
+    display: none; 
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .text-1,
+  .text-2-2,
+  .text-3-2,
+  .text-4-2,
+  .text-5-2 {
+    font-size: 15px; 
+  }
+  .component-6 {
+    padding: 10px;
+    max-height: 70vh;
+  }
+  .tokyo-flash-1,
+  .r-2,
+  .artboard-1-1 {
+    max-width: 90%; 
+  }
+}
+
+@media only screen and (max-width: 576px) { 
+  .chevrons-left {
+    width: 30px;
+    height: 30px;
+  }
+  .fixed-chevrons-left {
+    left: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  .skip-next-filled, 
+  .arrow-right,
+  .skip-next-filled2 {
+    width: 45px;
+    height: 45px;
+    margin: 0 10px;
+  }
+  .text-1,
+  .text-2-2,
+  .text-3-2,
+  .text-4-2,
+  .text-5-2 {
+    font-size: 14px;
+  }
+  .component-6 {
+    padding: 5px;
+    max-height: none; 
+    background-color: rgba(0,0,0,0.6); 
+  }
+  .tokyo-flash-1,
+  .r-2,
+  .artboard-1-1 {
+    display: none; 
+  }
+  .text-column {
+     margin-top: 20px; 
+  }
+}

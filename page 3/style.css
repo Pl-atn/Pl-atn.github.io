@@ -53,7 +53,6 @@ h5,
 .wireframe-4 * {
   box-sizing: border-box;
 }
-
 .frame-6, .frame-3, .frame-4, .frame-5 {
   flex: 1 1 0px;
   min-width: 180px;
@@ -69,7 +68,6 @@ h5,
   align-items: flex-start;
   justify-content: flex-start;
   text-align: left;
-
 }
 .component-1, .component-2, .component-3, .component-4, .component-5 {
   position: relative;
@@ -84,7 +82,6 @@ h5,
   align-items: flex-start;
   text-align: left;
   justify-content: center;
-
 }
 
 .side-title-00, .side-title-01, .side-title-02, .side-title-03, .side-title-04,
@@ -98,7 +95,6 @@ h5,
   height: auto;
   margin-bottom: 10px;
   text-align: left;
-
 }
 
 ._00, ._01, ._02, ._03, ._04 {

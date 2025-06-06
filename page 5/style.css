@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 a,
 button,
 input,
@@ -201,8 +206,18 @@ h5,
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  animation: slideIn 0.8s ease-out forwards;
 }
-
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 .group-pics-3 {
   position: relative;
   top: 120px;
@@ -210,8 +225,21 @@ h5,
   z-index: 1;
   display: flex;
   flex-direction: column;
+  transition: transform 0.5s ease;
 }
-._4-f-7-d-2-fe-8-aac-67-eafba-271-cbea-682-cc-56-1000-x-1000-x-1-1 {
+.group-pics-3:hover {
+  transform: scale(1.02) translateY(-5px);
+}
+
+.group-pics-3:hover .odoriko-1 {
+  transform: rotate(360deg);
+  filter: brightness(1.1);
+}
+
+.group-pics-3:hover .r-5 {
+  filter: brightness(1.1);
+}
+.r-5 {
   position: absolute;
   top: 2px;
   left: -235px; 
@@ -231,6 +259,8 @@ h5,
   object-fit: cover;
   display: block;
   z-index: 3;
+  transition: all 7s ease;
+  transform-origin: center center;
 }
 
 .component-3 {

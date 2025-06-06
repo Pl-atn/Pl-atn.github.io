@@ -1,4 +1,7 @@
-
+body {
+  margin: 0;
+  padding: 0;
+}
 
 a,
 button,
@@ -261,8 +264,18 @@ h5,
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  animation: slideIn 0.8s ease-out forwards;
 }
-
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 .group-pics-5 {
   position: relative;
   top: 120px;
@@ -271,6 +284,19 @@ h5,
   display: flex;
   flex-direction: column;
 }
+.group-pics-5:hover {
+  transform: scale(1.02) translateY(-5px);
+}
+
+.group-pics-5:hover .replica-2-1 {
+  transform: rotate(360deg);
+  filter: brightness(1.1);
+}
+
+.group-pics-5:hover .f-5-av-9-x-7-a-yaad-dh-t-jpg-large-1 {
+  filter: brightness(1.1);
+}
+
 .f-5-av-9-x-7-a-yaad-dh-t-jpg-large-1 {
   position: absolute;
   top: 1px;
@@ -281,6 +307,7 @@ h5,
   display: block;
   position: absolute;
   z-index: 11;
+  transition: filter 0.5s ease;
 }
 .replica-2-1 {
   position: relative;
@@ -291,6 +318,8 @@ h5,
   object-fit: contain;
   display: block;
   z-index: 3;
+  transition: all 7s ease;
+  transform-origin: center center;
 }
 
 .component-5 {

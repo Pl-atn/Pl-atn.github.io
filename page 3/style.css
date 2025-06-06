@@ -1,14 +1,3 @@
-@keyframes slideIn {
-  0% {
-    transform: translateY(-100vh);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -193,6 +182,17 @@ h5,
   justify-content: flex-start;
   animation: slideIn 0.8s ease-out forwards;
 }
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 .group-pics {
   position: relative;
   top: 120px;
@@ -216,19 +216,6 @@ h5,
   filter: brightness(1.1);
 }
 
-.tokyo-flash-1 {
-  position: relative;
-  top: 0;
-  left: -48px;
-  width: 150%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  z-index: 3;
-  transition: all 7s ease;
-  transform-origin: center center;
-}
-
 .r-2 {
   position: absolute;
   top: -3px;
@@ -240,6 +227,19 @@ h5,
   position: absolute;
   z-index: 11;
   transition: filter 0.5s ease;
+}
+
+.tokyo-flash-1 {
+  position: relative;
+  top: 0;
+  left: -48px;
+  width: 150%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  z-index: 3;
+  transition: all 7s ease;
+  transform-origin: center center;
 }
 
 .component-1 {

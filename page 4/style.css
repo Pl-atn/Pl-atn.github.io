@@ -1,4 +1,8 @@
 
+body {
+  margin: 0;
+  padding: 0;
+}
 
 a,
 button,
@@ -179,7 +183,20 @@ h5,
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  animation: slideIn 0.8s ease-out forwards;
 }
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
 .group-pics-2 {
   position: relative;
   top: 120px;
@@ -187,6 +204,19 @@ h5,
   z-index: 1;
   display: flex;
   flex-direction: column;
+  transition: transform 0.5s ease;
+}
+.group-pics-2:hover {
+  transform: scale(1.02) translateY(-5px);
+}
+
+.group-pics-2:hover .strobo-1 {
+  transform: rotate(360deg);
+  filter: brightness(1.1);
+}
+
+.group-pics-2:hover .r-1 {
+  filter: brightness(1.1);
 }
 .r-1 {
   position: absolute;
@@ -198,6 +228,7 @@ h5,
   display: block;
   position: absolute;
   z-index: 11;
+  transition: filter 0.5s ease;
 }
 .strobo-1 {
   position: relative;
@@ -207,6 +238,8 @@ h5,
   object-fit: cover;
   display: block;
   z-index: 2;
+  transition: all 7s ease;
+  transform-origin: center center;
 }
 
 .component-2 {

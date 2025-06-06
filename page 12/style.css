@@ -1,0 +1,333 @@
+html {
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll from affecting layout */
+}
+
+/* General Reset and Body */
+a, button, input, select, h1, h2, h3, h4, h5, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    background: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+menu, ol, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  /* Fallback color, will be covered by wireframe background */
+  background-color: rgba(237, 188, 96, 1);
+  color: #ffffff; /* Default text color for the page */
+  min-height: 100%; /* Ensure body stretches to html's height */
+  width: 100%; /* Ensure body takes full width */
+  margin: 0; /* Explicitly set, though normalize.css should handle */
+  padding: 0; /* Explicitly set */
+}
+
+/* Page Wrapper */
+.wireframe-15 {
+  background-image: url("vaundy-01-10.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keeps background stationary on scroll */
+  width: 100%;
+  min-height: 100%; /* Changed from 100vh to fill parent (body) */
+  height: auto; /* Allow content to define height */
+  position: relative;
+  overflow-x: hidden;
+  padding-bottom: 50px; /* Space at the bottom */
+}
+
+/* Fixed Navigation */
+.fixed-chevrons-left {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  z-index: 1000;
+  width: 40px;
+  height: 40px;
+}
+.fixed-chevrons-left img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Removing old absolute positioning for gridded elements */
+.replica-2-1, .f-5-av-9-x-7-a-yaad-dh-t-jpg-large-1,
+.replica-2-12, .f-5-av-9-x-7-a-yaad-dh-t-jpg-large-12,
+.group-11, .group-13,
+.disc-1, .tracklist, .disc-2, /* Original title elements */
+.component-8, .disc-2-tracklist, /* Original tracklist containers */
+.audio-007, .zero-spotify-brand-tv-commercial-song, /* etc. individual track items */
+.chevrons-down, .the-last-paragrpah, .brief-about-the-album, .the-achievement-list
+{
+  position: relative !important;
+  left: auto !important;
+  top: auto !important;
+  width: auto !important;
+  height: auto !important;
+  margin-bottom: 15px; /* Add some default spacing */
+}
+
+/* Typography and Section Styling */
+.section-header h1.tracklist-title {
+  font-size: 3rem; /* Responsive font size */
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.album-art-row img {
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  margin-bottom: 20px; /* Space below images in the row */
+}
+
+.disc-section {
+  margin-top: 30px;
+}
+
+.disc-column {
+  padding: 0 15px; /* Padding inside columns */
+}
+
+.disc-title-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.disc-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.disc-title-icon {
+  max-width: 200px; /* Control size of the SVG icon */
+  height: auto;
+  margin: 0 auto 15px auto;
+}
+
+.tracklist-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  max-height: 500px; /* Default max height, can be adjusted */
+  overflow-y: auto;
+}
+
+/* Custom Scrollbar for Webkit */
+.tracklist-container::-webkit-scrollbar {
+  width: 8px;
+}
+.tracklist-container::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.1);
+  border-radius: 4px;
+}
+.tracklist-container::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.4);
+  border-radius: 4px;
+}
+.tracklist-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.6);
+}
+
+/* Custom Scrollbar for Firefox */
+.tracklist-container {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.4) rgba(255,255,255,0.1);
+}
+
+ol.track-items {
+  list-style-type: decimal;
+  padding-left: 25px; /* Indentation for ordered list numbers */
+  color: #f0f0f0;
+}
+
+ol.track-items li {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.track-subtitle {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 400;
+  opacity: 0.85;
+  margin-top: 3px;
+  color: #dddddd;
+}
+
+.scroll-down-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  opacity: 0.7;
+}
+
+.brief-about-the-album, .the-achievement-list {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+  background-color: rgba(0,0,0,0.4);
+  padding: 15px;
+  border-radius: 6px;
+  margin: 10px auto;
+  max-width: 800px;
+}
+
+.the-achievement-list {
+   margin-top: 20px;
+}
+
+
+/* Media Queries */
+@media (max-width: 992px) { /* Tablet */
+  .section-header h1.tracklist-title {
+    font-size: 2.5rem;
+  }
+  .disc-title {
+    font-size: 2rem;
+  }
+  .tracklist-container {
+    max-height: 450px; /* Adjust scroll height for tablets */
+  }
+  ol.track-items li {
+    font-size: 1rem;
+  }
+  .track-subtitle {
+    font-size: 0.8rem;
+  }
+  .brief-about-the-album, .the-achievement-list {
+    font-size: 0.95rem;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 768px) { /* Smaller tablets / Large Phones */
+  .fixed-chevrons-left {
+    width: 35px;
+    height: 35px;
+    left: 15px;
+    top: 15px;
+  }
+  .wireframe-15 .container .row {
+     padding-top: 70px !important; /* Adjust for smaller chevron */
+  }
+  .album-art-row .column, .album-art-row .columns {
+    /* Stack album art images */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    margin-bottom: 20px;
+  }
+  .disc-column {
+    /* Stack disc columns */
+    width: 100% !important; /* Override Skeleton's column */
+    margin-bottom: 30px;
+  }
+  .disc-column:last-child {
+    margin-bottom: 0;
+  }
+  .tracklist-container {
+    max-height: 400px; 
+  }
+}
+
+@media (max-width: 550px) { /* Mobile */
+  .section-header h1.tracklist-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .disc-title {
+    font-size: 1.7rem;
+  }
+  .disc-title-icon {
+    max-width: 150px;
+  }
+  ol.track-items li {
+    font-size: 0.9rem;
+  }
+  .track-subtitle {
+    font-size: 0.75rem;
+  }
+  .tracklist-container {
+    padding: 15px;
+    max-height: 350px;
+  }
+  .brief-about-the-album, .the-achievement-list {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+  .scroll-down-icon {
+    width: 40px;
+    height: 40px;
+  }
+   .wireframe-15 .container .row.section-header {
+     padding-top: 60px !important; /* Adjust for smaller chevron */
+  }
+}
+
+/* Hide original styles that are no longer needed or might conflict */
+.group-6, .group-12 { display: none !important; }
+.vaundy-01-1 { display: none !important; } /* Handled by background */
+
+/* Specific overrides for elements if they were too broadly styled by original CSS */
+.component-8,
+.disc-2-tracklist,
+.audio-007,
+.zero-spotify-brand-tv-commercial-song,
+.beauty-light-bulb-tv-asahi-saturday-station-sunday-station-op-theme,
+.carnival-netflix-mitarai-house-burning-theme-song,
+.with-love-for-1-liter,
+.normal-heat,
+.audio-006,
+.miya-pronunciation-miyako,
+.kuroko-pronunciation-mole,
+.backlight-replica,
+.neo-japan,
+.like-breathing-movie-positive-desire-theme-song,
+.flower-song-of-the-monster-replica,
+.audio-008,
+.replica,
+.audio-003-the-secret-of-the-world-university-student-sns-dtto-web-cm-song-wowow-original-drama-short-shorts-theater-kokoro-no-fufufu-maruha-nichiro-new-chinatown-series-yokohama-ankake-ramen-tv-commercial-song-melting-sink-shiwaase-vocational-schools-metropolitan-medical-school-osaka-medical-college-nagoya-medical-college-2021-tv-commercial-song-maruha-nichiro-new-chinatown-series-gome-ankake-yakisoba-tv-commercial-song-jacc-s-2023-new-cm-more-than-things-stories-series-benefits-hanahoro-japan-mc-donald-s-co-ltd-tiro-remix-2024-japan-tv-sunday-drama-boku-no-murderous-intent-ga-koi-theme-song-tokimeki-toyota-corolla-cross-cm-song-seishun-bingo-vaundy-do-co-mo-seishun-discount-celebration-graduation-movie-asahi-beer-dry-crystal-tv-commercial-song-crying-jizo-dancer-you-tube-premium-commercial-song-naked-hero-fuji-tv-noitamina-tv-anime-king-ranking-2nd-cool-op-theme-abema-phantasmagoria-mabataki-suntory-boss-caffeine-cm-song-youth-time-trip-vaundy-do-co-mo-youth-support-movie-chainsaw-blood-tv-anime-chainsaw-man-episode-1-ed-theme-hitomi-love-tv-asahi-saturday-night-drama-japanese-style-theme-song-forgotten-items-japan-mc-donald-s-cm-toki-tsuru-burger-edition-cm-song-letter-morisawa-fonts-collaboration-eyelids-fuji-tv-monthly-9-drama-goddess-s-classroom-regal-youth-hakusho-theme-song-such-a-bitter-story-abema-bouquet-of-flowers-and-wolves-don-t-be-deceived-theme-song-todome-s-blows-feat-cory-wong-tv-anime-spy-family-season-2-ed-theme-song,
+.chevrons-down,
+.the-last-paragrpah,
+.brief-about-the-album,
+.the-achievement-list {
+    background-color: transparent !important; /* Reset if old styles had opaque backgrounds */
+    color: inherit !important; /* Reset if old styles had specific colors conflicting */
+    display: block !important; /* Ensure proper block behavior for layout */
+    /* Add any other necessary resets if issues arise */
+}
+
+.tracklist-container.component-8, .tracklist-container.disc-2-tracklist {
+    background-color: rgba(0,0,0,0.3) !important; /* Ensure this style is applied */
+}
+
+.brief-about-the-album, .the-achievement-list {
+  background-color: rgba(0,0,0,0.4) !important;
+  color: #e0e0e0 !important;
+}
+
+/* Ensure box-sizing is applied universally, Skeleton.css should also handle this */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; 
+}

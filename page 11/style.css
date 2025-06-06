@@ -1,0 +1,166 @@
+
+a, button, input, select, h1, h2, h3, h4, h5, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    background: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+menu, ol, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  background-color: #5C0000; 
+  color: #ffffff;
+}
+
+
+.wireframe-13 {
+  background: linear-gradient(
+    180deg,
+    rgba(189, 0, 4, 1) 0%,
+    rgba(92, 0, 0, 1) 100%
+  );
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  position: relative;
+  overflow-x: hidden;
+  padding-bottom: 40px; 
+}
+
+
+.fixed-chevrons-left {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  z-index: 1000;
+  width: 40px;
+  height: 40px;
+}
+.fixed-chevrons-left img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.text-content-left, .image-and-tracklist-right,
+.the-naked-hero-2-1,
+.r-22332439-1646035991-3612-1,
+.group-10,
+.component-9,
+.component-11,
+.component-11 > div 
+{
+  position: relative;
+  left: auto;
+  top: auto ;
+  width: auto ; 
+  height: auto ; 
+  margin-bottom: 20px; 
+}
+
+.text-content-left .component-11 {
+  padding: 15px;
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 6px;
+  margin-bottom: 0; 
+}
+
+.component-11 > div {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: left;
+}
+.component-11 .meaning {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+
+.image-and-tracklist-right img {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-and-tracklist-right .group-10 {
+  max-width: 280px;
+}
+
+
+.component-9 {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 6px;
+  margin-bottom: 0;
+}
+.component-9 h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+.track-list-items {
+  list-style-type: decimal;
+  padding-left: 25px; 
+}
+.track-list-items li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.track-subtitle {
+  display: block;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-top: 3px;
+}
+
+@media (max-width: 768px) {
+  .fixed-chevrons-left {
+    width: 35px;
+    height: 35px;
+    left: 15px;
+    top: 15px;
+  }
+  .text-content-left .component-11,
+  .image-and-tracklist-right .component-9 {
+    padding: 10px;
+  }
+  .component-11 .meaning { font-size: 1.3rem; }
+  .component-11 > div { font-size: 0.95rem; }
+  .component-9 h3 { font-size: 1.3rem; }
+  .track-list-items li { font-size: 1rem; }
+}
+
+@media (max-width: 550px) {
+  .fixed-chevrons-left {
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    top: 10px;
+  }
+   .wireframe-13 .container .row {
+    padding-top: 60px; 
+  }
+  .component-11 .meaning { font-size: 1.2rem; }
+  .component-11 > div { font-size: 0.9rem; }
+  .component-9 h3 { font-size: 1.2rem; }
+  .track-list-items li { font-size: 0.95rem; }
+  .track-subtitle { font-size: 0.8rem; }
+}
+
+
+.group-8 {
+    display: none ;
+}

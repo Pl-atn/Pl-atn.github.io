@@ -1,3 +1,24 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+body {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+.wireframe-2 {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards 0.3s;
+}
+
 @media only screen and (max-width: 48em) {
   .component-12 {
     top: 0;
@@ -124,7 +145,18 @@ h5,
   margin-top: 2em;
   overflow: hidden;
   box-sizing: border-box;
+  transition: all 0.3s ease;
 }
+
+.button-danger:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.button-danger:hover .arrow-right {
+  transform: translateX(5px);
+}
+
 .learn-more {
   color: #ffffff;
   text-align: left;
@@ -141,4 +173,19 @@ h5,
   height: 48px;
   position: relative;
   overflow: visible;
+  transition: transform 0.3s ease;
+}
+footer {
+  color:#000000;
+  padding: 20px;
+  text-align: center;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1em;
+}
+
+footer a {
+  color: #000000;
+}
+footer a:hover {
+  color: #17465e;
 }

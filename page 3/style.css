@@ -1,3 +1,34 @@
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wireframe-4 {
+  background: #ffffff;
+  width: 100%;
+  padding: 0 5%;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
 a,
 button,
 input,
@@ -22,19 +53,7 @@ h5,
 .wireframe-4 * {
   box-sizing: border-box;
 }
-.wireframe-4 {
-  background: #ffffff;
-  width: 100%;
-  padding: 0 5%;
-  min-height: 100vh;
-  position: relative;
-  overflow-x: hidden;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
+
 .frame-6, .frame-3, .frame-4, .frame-5 {
   flex: 1 1 0px;
   min-width: 180px;
@@ -50,6 +69,7 @@ h5,
   align-items: flex-start;
   justify-content: flex-start;
   text-align: left;
+
 }
 .component-1, .component-2, .component-3, .component-4, .component-5 {
   position: relative;
@@ -64,6 +84,7 @@ h5,
   align-items: flex-start;
   text-align: left;
   justify-content: center;
+
 }
 
 .side-title-00, .side-title-01, .side-title-02, .side-title-03, .side-title-04,
@@ -77,6 +98,7 @@ h5,
   height: auto;
   margin-bottom: 10px;
   text-align: left;
+
 }
 
 ._00, ._01, ._02, ._03, ._04 {
@@ -119,7 +141,32 @@ h5,
   align-items: center;
   justify-content: center;
   gap: 8px;
+  transition: all 0.3s ease;
 }
+
+.button-danger:hover, .button-danger2:hover, .button-danger3:hover, .button-danger4:hover, .button-danger5:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.button-danger:hover .arrow-right, 
+.button-danger2:hover .arrow-right2,
+.button-danger3:hover .arrow-right3,
+.button-danger4:hover .arrow-right4,
+.button-danger5:hover .arrow-right5 {
+  transform: translateX(5px);
+}
+
+.arrow-right, .arrow-right2, .arrow-right3, .arrow-right4, .arrow-right5 {
+  border-radius: 47px;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: visible;
+  transition: transform 0.3s ease;
+}
+
 .learn-more {
   color: #ffffff;
   text-align: left;
@@ -128,14 +175,6 @@ h5,
   line-height: 100%;
   font-weight: 400;
   position: relative;
-}
-.arrow-right {
-  border-radius: 47px;
-  flex-shrink: 0;
-  width: 48px;
-  height: 48px;
-  position: relative;
-  overflow: visible;
 }
 .frame-1 {
   background: linear-gradient(
@@ -156,6 +195,7 @@ h5,
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  animation: slideIn 0.8s ease-out forwards;
 }
 .group-pics {
   position: relative;
@@ -164,7 +204,22 @@ h5,
   z-index: 1;
   display: flex;
   flex-direction: column;
+  transition: transform 0.5s ease;
 }
+
+.group-pics:hover {
+  transform: scale(1.02) translateY(-5px);
+}
+
+.group-pics:hover .tokyo-flash-1 {
+  transform: rotate(360deg);
+  filter: brightness(1.1);
+}
+
+.group-pics:hover .r-2 {
+  filter: brightness(1.1);
+}
+
 .tokyo-flash-1 {
   position: relative;
   top: 0;
@@ -174,6 +229,8 @@ h5,
   object-fit: cover;
   display: block;
   z-index: 3;
+  transition: all 7s ease;
+  transform-origin: center center;
 }
 
 .r-2 {
@@ -186,11 +243,10 @@ h5,
   display: block;
   position: absolute;
   z-index: 11;
-
+  transition: filter 0.5s ease;
 }
 
-
- .component-1 {
+.component-1 {
   position: relative;
   z-index: 2;
   width: 100%;
@@ -216,8 +272,6 @@ h5,
   margin-bottom: 15px;
   line-height: 1.3;
 }
-
-
 
 .side-title-01 {
   font-family: "Bricolage Grotesque", sans-serif;

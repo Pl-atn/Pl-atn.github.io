@@ -63,10 +63,6 @@ body {
   opacity: 0.8;
 }
 
-.container {
-  position: relative; 
-  z-index: 1; 
-}
 
 .responsive-img {
   max-width: 100%;
@@ -196,6 +192,7 @@ body {
 
 .skip-next-filled:hover, .arrow-right:hover, .skip-next-filled2:hover {
   transform: scale(1.05);
+  cursor: pointer;
 }
 
 .skip-next-filled, 

@@ -1,0 +1,530 @@
+a,
+button,
+input,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    background: none;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+menu, ol, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-image: url("vaundy-01-10.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.wireframe-15,
+.wireframe-15 * {
+  box-sizing: border-box;
+}
+.wireframe-15 {
+  background: linear-gradient(
+    180.01deg,
+    rgba(238, 189, 96, 1) 0%,
+    rgba(237, 188, 96, 1) 100%
+  );
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+.group-6 {
+  position: absolute;
+  inset: 0;
+  aspect-ratio: 683.54/500;
+}
+.replica-2-1 {
+  width: 506.04px;
+  height: 497.23px;
+  position: absolute;
+  left: 232.49px;
+  top: 2345.77px;
+  object-fit: cover;
+  aspect-ratio: 506.04/497.23;
+}
+.f-5-av-9-x-7-a-yaad-dh-t-jpg-large-1 {
+  width: 488px;
+  height: 497.23px;
+  position: absolute;
+  left: 55px;
+  top: 2343px;
+  object-fit: cover;
+  aspect-ratio: 488/497.23;
+}
+.group-12 {
+  position: absolute;
+  inset: 0;
+  aspect-ratio: 687.54/500;
+}
+.replica-2-12 {
+  width: 506.04px;
+  height: 497.23px;
+  position: absolute;
+  left: 1003.49px;
+  top: 2348.77px;
+  object-fit: cover;
+  aspect-ratio: 506.04/497.23;
+}
+.f-5-av-9-x-7-a-yaad-dh-t-jpg-large-12 {
+  width: 497px;
+  height: 497px;
+  position: absolute;
+  left: 822px;
+  top: 2346px;
+  object-fit: cover;
+}
+.chevrons-left {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 38px;
+  top: 42px;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.group-11 {
+  height: auto;
+  position: absolute;
+  left: 186px;
+  top: 2881px;
+  overflow: visible;
+  aspect-ratio: 274.91/80;
+}
+.group-13 {
+  height: auto;
+  position: absolute;
+  left: 959px;
+  top: 2881px;
+  overflow: visible;
+  aspect-ratio: 274.91/80;
+}
+.disc-1 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  position: absolute;
+  left: 485px;
+  top: 2780px;
+  width: 246px;
+  height: 98px;
+}
+.tracklist {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 96px;
+  font-weight: 700;
+  position: absolute;
+  left: 559px;
+  top: 2137px;
+  width: 435px;
+  height: 98px;
+}
+.disc-2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  position: absolute;
+  left: 1213px;
+  top: 2780px;
+  width: 293px;
+  height: 98px;
+}
+.component-8 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 720px;
+  height: 283px;
+  position: absolute;
+  left: 55px;
+  top: 2999px;
+  overflow-y: auto;
+}
+.audio-007 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  height: 38px;
+}
+.zero-spotify-brand-tv-commercial-song {
+  color: #ffffff;
+  text-align: left;
+  position: relative;
+  align-self: stretch;
+  height: 59px;
+}
+.zero-spotify-brand-tv-commercial-song-span {
+  list-style-type: decimal;
+  padding-left: 1em;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.zero-spotify-brand-tv-commercial-song-span2 {
+  font-family: "BricolageGrotesque-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.zero-spotify-brand-tv-commercial-song-span3 {
+  font-family: "BricolageGrotesque-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.beauty-light-bulb-tv-asahi-saturday-station-sunday-station-op-theme {
+  color: #ffffff;
+  text-align: left;
+  position: relative;
+  align-self: stretch;
+  height: 59px;
+}
+.beauty-light-bulb-tv-asahi-saturday-station-sunday-station-op-theme-span {
+  list-style-type: decimal;
+  padding-left: 1em;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.beauty-light-bulb-tv-asahi-saturday-station-sunday-station-op-theme-span2 {
+  font-family: "BricolageGrotesque-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.beauty-light-bulb-tv-asahi-saturday-station-sunday-station-op-theme-span3 {
+  font-family: "BricolageGrotesque-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.carnival-netflix-mitarai-house-burning-theme-song {
+  color: #ffffff;
+  text-align: left;
+  position: relative;
+  align-self: stretch;
+  height: 59px;
+}
+.carnival-netflix-mitarai-house-burning-theme-song-span {
+  list-style-type: decimal;
+  padding-left: 1em;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.carnival-netflix-mitarai-house-burning-theme-song-span2 {
+  font-family: "BricolageGrotesque-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.carnival-netflix-mitarai-house-burning-theme-song-span3 {
+  font-family: "BricolageGrotesque-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.with-love-for-1-liter {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  height: 45px;
+}
+.normal-heat {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  height: 38px;
+}
+.audio-006 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  height: 38px;
+}
+.miya-pronunciation-miyako {
+  color: #ffffff;
+  text-align: left;
+  position: relative;
+  align-self: stretch;
+  height: 59px;
+}
+.miya-pronunciation-miyako-span {
+  list-style-type: decimal;
+  padding-left: 1em;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.miya-pronunciation-miyako-span2 {
+  font-family: "BricolageGrotesque-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.kuroko-pronunciation-mole {
+  color: #ffffff;
+  text-align: left;
+  position: relative;
+  align-self: stretch;
+  height: 59px;
+}
+.kuroko-pronunciation-mole-span {
+  list-style-type: decimal;
+  padding-left: 1em;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.kuroko-pronunciation-mole-span2 {
+  font-family: "BricolageGrotesque-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.backlight-replica {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  height: 38px;
+}
+.neo-japan {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  height: 38px;
+}
+.like-breathing-movie-positive-desire-theme-song {
+  color: #ffffff;
+  text-align: left;
+  position: relative;
+  align-self: stretch;
+  height: 71px;
+}
+.like-breathing-movie-positive-desire-theme-song-span {
+  list-style-type: decimal;
+  padding-left: 1em;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.like-breathing-movie-positive-desire-theme-song-span2 {
+  font-family: "BricolageGrotesque-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.like-breathing-movie-positive-desire-theme-song-span3 {
+  font-family: "BricolageGrotesque-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.flower-song-of-the-monster-replica {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  height: 38px;
+}
+.audio-008 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  height: 38px;
+}
+.replica {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  height: 38px;
+}
+.disc-2-tracklist {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 632px;
+  height: 269px;
+  position: absolute;
+  left: 822px;
+  top: 2996px;
+  overflow-y: auto;
+}
+.audio-003-the-secret-of-the-world-university-student-sns-dtto-web-cm-song-wowow-original-drama-short-shorts-theater-kokoro-no-fufufu-maruha-nichiro-new-chinatown-series-yokohama-ankake-ramen-tv-commercial-song-melting-sink-shiwaase-vocational-schools-metropolitan-medical-school-osaka-medical-college-nagoya-medical-college-2021-tv-commercial-song-maruha-nichiro-new-chinatown-series-gome-ankake-yakisoba-tv-commercial-song-jacc-s-2023-new-cm-more-than-things-stories-series-benefits-hanahoro-japan-mc-donald-s-co-ltd-tiro-remix-2024-japan-tv-sunday-drama-boku-no-murderous-intent-ga-koi-theme-song-tokimeki-toyota-corolla-cross-cm-song-seishun-bingo-vaundy-do-co-mo-seishun-discount-celebration-graduation-movie-asahi-beer-dry-crystal-tv-commercial-song-crying-jizo-dancer-you-tube-premium-commercial-song-naked-hero-fuji-tv-noitamina-tv-anime-king-ranking-2nd-cool-op-theme-abema-phantasmagoria-mabataki-suntory-boss-caffeine-cm-song-youth-time-trip-vaundy-do-co-mo-youth-support-movie-chainsaw-blood-tv-anime-chainsaw-man-episode-1-ed-theme-hitomi-love-tv-asahi-saturday-night-drama-japanese-style-theme-song-forgotten-items-japan-mc-donald-s-cm-toki-tsuru-burger-edition-cm-song-letter-morisawa-fonts-collaboration-eyelids-fuji-tv-monthly-9-drama-goddess-s-classroom-regal-youth-hakusho-theme-song-such-a-bitter-story-abema-bouquet-of-flowers-and-wolves-don-t-be-deceived-theme-song-todome-s-blows-feat-cory-wong-tv-anime-spy-family-season-2-ed-theme-song {
+  color: #ffffff;
+  text-align: left;
+  position: relative;
+  align-self: stretch;
+}
+.audio-003-the-secret-of-the-world-university-student-sns-dtto-web-cm-song-wowow-original-drama-short-shorts-theater-kokoro-no-fufufu-maruha-nichiro-new-chinatown-series-yokohama-ankake-ramen-tv-commercial-song-melting-sink-shiwaase-vocational-schools-metropolitan-medical-school-osaka-medical-college-nagoya-medical-college-2021-tv-commercial-song-maruha-nichiro-new-chinatown-series-gome-ankake-yakisoba-tv-commercial-song-jacc-s-2023-new-cm-more-than-things-stories-series-benefits-hanahoro-japan-mc-donald-s-co-ltd-tiro-remix-2024-japan-tv-sunday-drama-boku-no-murderous-intent-ga-koi-theme-song-tokimeki-toyota-corolla-cross-cm-song-seishun-bingo-vaundy-do-co-mo-seishun-discount-celebration-graduation-movie-asahi-beer-dry-crystal-tv-commercial-song-crying-jizo-dancer-you-tube-premium-commercial-song-naked-hero-fuji-tv-noitamina-tv-anime-king-ranking-2nd-cool-op-theme-abema-phantasmagoria-mabataki-suntory-boss-caffeine-cm-song-youth-time-trip-vaundy-do-co-mo-youth-support-movie-chainsaw-blood-tv-anime-chainsaw-man-episode-1-ed-theme-hitomi-love-tv-asahi-saturday-night-drama-japanese-style-theme-song-forgotten-items-japan-mc-donald-s-cm-toki-tsuru-burger-edition-cm-song-letter-morisawa-fonts-collaboration-eyelids-fuji-tv-monthly-9-drama-goddess-s-classroom-regal-youth-hakusho-theme-song-such-a-bitter-story-abema-bouquet-of-flowers-and-wolves-don-t-be-deceived-theme-song-todome-s-blows-feat-cory-wong-tv-anime-spy-family-season-2-ed-theme-song-span {
+  list-style-type: decimal;
+  padding-left: 1em;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.audio-003-the-secret-of-the-world-university-student-sns-dtto-web-cm-song-wowow-original-drama-short-shorts-theater-kokoro-no-fufufu-maruha-nichiro-new-chinatown-series-yokohama-ankake-ramen-tv-commercial-song-melting-sink-shiwaase-vocational-schools-metropolitan-medical-school-osaka-medical-college-nagoya-medical-college-2021-tv-commercial-song-maruha-nichiro-new-chinatown-series-gome-ankake-yakisoba-tv-commercial-song-jacc-s-2023-new-cm-more-than-things-stories-series-benefits-hanahoro-japan-mc-donald-s-co-ltd-tiro-remix-2024-japan-tv-sunday-drama-boku-no-murderous-intent-ga-koi-theme-song-tokimeki-toyota-corolla-cross-cm-song-seishun-bingo-vaundy-do-co-mo-seishun-discount-celebration-graduation-movie-asahi-beer-dry-crystal-tv-commercial-song-crying-jizo-dancer-you-tube-premium-commercial-song-naked-hero-fuji-tv-noitamina-tv-anime-king-ranking-2nd-cool-op-theme-abema-phantasmagoria-mabataki-suntory-boss-caffeine-cm-song-youth-time-trip-vaundy-do-co-mo-youth-support-movie-chainsaw-blood-tv-anime-chainsaw-man-episode-1-ed-theme-hitomi-love-tv-asahi-saturday-night-drama-japanese-style-theme-song-forgotten-items-japan-mc-donald-s-cm-toki-tsuru-burger-edition-cm-song-letter-morisawa-fonts-collaboration-eyelids-fuji-tv-monthly-9-drama-goddess-s-classroom-regal-youth-hakusho-theme-song-such-a-bitter-story-abema-bouquet-of-flowers-and-wolves-don-t-be-deceived-theme-song-todome-s-blows-feat-cory-wong-tv-anime-spy-family-season-2-ed-theme-song-span2 {
+  list-style-type: decimal;
+  padding-left: 1em;
+  font-family: "BricolageGrotesque-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.audio-003-the-secret-of-the-world-university-student-sns-dtto-web-cm-song-wowow-original-drama-short-shorts-theater-kokoro-no-fufufu-maruha-nichiro-new-chinatown-series-yokohama-ankake-ramen-tv-commercial-song-melting-sink-shiwaase-vocational-schools-metropolitan-medical-school-osaka-medical-college-nagoya-medical-college-2021-tv-commercial-song-maruha-nichiro-new-chinatown-series-gome-ankake-yakisoba-tv-commercial-song-jacc-s-2023-new-cm-more-than-things-stories-series-benefits-hanahoro-japan-mc-donald-s-co-ltd-tiro-remix-2024-japan-tv-sunday-drama-boku-no-murderous-intent-ga-koi-theme-song-tokimeki-toyota-corolla-cross-cm-song-seishun-bingo-vaundy-do-co-mo-seishun-discount-celebration-graduation-movie-asahi-beer-dry-crystal-tv-commercial-song-crying-jizo-dancer-you-tube-premium-commercial-song-naked-hero-fuji-tv-noitamina-tv-anime-king-ranking-2nd-cool-op-theme-abema-phantasmagoria-mabataki-suntory-boss-caffeine-cm-song-youth-time-trip-vaundy-do-co-mo-youth-support-movie-chainsaw-blood-tv-anime-chainsaw-man-episode-1-ed-theme-hitomi-love-tv-asahi-saturday-night-drama-japanese-style-theme-song-forgotten-items-japan-mc-donald-s-cm-toki-tsuru-burger-edition-cm-song-letter-morisawa-fonts-collaboration-eyelids-fuji-tv-monthly-9-drama-goddess-s-classroom-regal-youth-hakusho-theme-song-such-a-bitter-story-abema-bouquet-of-flowers-and-wolves-don-t-be-deceived-theme-song-todome-s-blows-feat-cory-wong-tv-anime-spy-family-season-2-ed-theme-song-span3 {
+  list-style-type: decimal;
+  padding-left: 1em;
+  font-family: "BricolageGrotesque-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.chevrons-down {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 731px;
+  top: 3376px;
+  transform: translate(0px, -80px);
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.the-last-paragrpah {
+  color: #fdf8f2;
+  text-align: left;
+  position: absolute;
+  left: 1079px;
+  top: 428px;
+  width: 396px;
+  height: 448px;
+}
+.the-last-paragrpah-span {
+  font-family: "BricolageGrotesque-SemiBold", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+.the-last-paragrpah-span2 {
+  list-style-type: disc;
+  padding-left: 1em;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.the-last-paragrpah-span3 {
+  list-style-type: disc;
+  padding-left: 1em;
+  font-family: "BricolageGrotesque-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.brief-about-the-album {
+  color: #fdf8f2;
+  text-align: left;
+  position: absolute;
+  left: 488px;
+  top: 428px;
+  width: 531px;
+  height: 396px;
+}
+.brief-about-the-album-span {
+  font-family: "BricolageGrotesque-SemiBold", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+.brief-about-the-album-span2 {
+  font-family: "BricolageGrotesque-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.brief-about-the-album-span3 {
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.brief-about-the-album-span4 {
+  list-style-type: disc;
+  padding-left: 1em;
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.brief-about-the-album-span5 {
+  list-style-type: disc;
+  padding-left: 1em;
+  font-family: "BricolageGrotesque-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.the-achievement-list {
+  color: #fdf8f2;
+  text-align: left;
+  position: absolute;
+  left: 118px;
+  top: 428px;
+  width: 279px;
+  height: 781px;
+}
+.the-achievement-list-span {
+  font-family: "BricolageGrotesque-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.the-achievement-list-span2 {
+  font-family: "BricolageGrotesque-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}

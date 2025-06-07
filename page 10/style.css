@@ -160,50 +160,104 @@ h5,
 }
 
 
-@media (max-width: 768px) {
-  .fixed-chevrons-left {
-    width: 35px;
-    height: 35px;
-    left: 15px;
-    top: 15px;
+@media only screen and (max-width: 992px) {
+  .main-content-row .six.columns {
+    width: 100%;
+    margin-left: 0;
+  }
+  .image-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .odoriko-1,
+  .artboard-1-1 {
+    max-width: 80%;
+  }
+  .artboard-1-1 {
+    padding-top: 120px;
+    left: 120px;
+  }
+  .r-5 {
+    width: 65%;
+    height: 60%;
+    margin-left: 20%;
+  }
+  .artboard-1-1 {
+    margin-left: 12%;
+  }
+  .component-6 {
+    margin-top: 10%;
+    flex-direction: column;
+    gap: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 60vh;
+    width: 100%;
   }
 
-  .component-10 {
+}
+
+@media only screen and (max-width: 768px) {
+  .responsive-img {
+    margin-bottom: 15%;
+  }
+  .oriko-1,
+  .r-5 {
+    width: 80%;
+  }
+  .r-5{
+    height: 20%;
+  }
+
+  .component-6 {
     max-height: none; 
     padding: 15px;
   }
 
-  .component-10 > div {
-    font-size: 0.95rem;
+  ._1st-span, ._2nd-span, ._3rd-span {
+    font-size: 1.5em;
+  }
+  ._1st, ._2nd-span2, ._3rd-span2, ._4th, ._5th, ._6th, ._7th {
+    font-size: 1.25em; 
+    font-weight: 400;
   }
 
-  ._2nd-span, ._3rd-span {
-    font-size: 1.3rem;
-  }
 }
 
-/* Mobile */
-@media (max-width: 550px) { 
-  .fixed-chevrons-left {
+@media only screen and (max-width: 576px) {
+
+  .chevrons-left {
     width: 30px;
     height: 30px;
     left: 10px;
     top: 10px;
   }
-  .wireframe-10 .container .row {
-    padding-top: 60px;
-  }
 
-  .component-10 {
+
+  .component-6 {
     padding: 10px;
-  }
-
-  .component-10 > div {
-    font-size: 0.9rem;
+    font-size: 0.9em;
     margin-bottom: 1.5em;
   }
-
-  ._2nd-span, ._3rd-span {
-    font-size: 1.2rem;
+  .responsive-img {
+    margin-left: 20%;
+    margin-right: 10%;
   }
+  .r-5 {
+    width: auto;
+    height:13%;
+  }
+
+  ._1st-span, ._2nd-span, ._3rd-span {
+    font-size: 1.2em;
+  }
+  .component-6 {
+    padding: 5px;
+  }
+  .odoriko-1,
+  .r-5 {
+    width: 80%;
+  }
+
 }

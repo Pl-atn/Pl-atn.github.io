@@ -222,6 +222,9 @@ body {
 
 
 @media only screen and (max-width: 992px) {
+  .chevrons-left{
+    margin-left: 5%;
+  }
   .main-content-row .six.columns {
     width: 100%; 
     margin-left: 0;
@@ -230,6 +233,9 @@ body {
     display: flex; 
     flex-direction: column; 
     align-items: center;
+  }
+  .responsive-img {
+    margin-top: 12%;
   }
   .tokyo-flash-1,
   .artboard-1-1 {
@@ -242,7 +248,7 @@ body {
   .r-2 {
     width: 65%;
     height: 45%;
-    margin-left: 20%;
+    margin-left: 15%;
   }
   .artboard-1-1 {
     margin-left: 12%;
@@ -253,6 +259,7 @@ body {
     overflow-x: hidden; 
     overflow-y: auto; 
     max-height: 60vh;
+    width: 100%; 
   }
   .Introduction-of-tokyo-flash,
   .text-2,
@@ -298,18 +305,13 @@ body {
 
 @media only screen and (max-width: 576px) { 
   .chevrons-left {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: auto;
+    left: 8%;
   }
-  .fixed-chevrons-left {
-    left: 10px;
-    top: 10px;
-    width: 30px;
-    height: 30px;
-  }
-  .skip-next-filled, 
-  .arrow-right,
-  .skip-next-filled2 {
+
+  
+  .arrow-right {
     width: 45px;
     height: 45px;
     margin: 0 10px;
@@ -319,11 +321,12 @@ body {
   .text-3-2,
   .text-4-2,
   .text-5-2 {
-    font-size: 14px;
+    font-size: 0.8em;
   }
   .component-6 {
     padding: 5px;
     max-height: none; 
+    margin-left: 12px;
   }
   .tokyo-flash-1,
   .r-2,
@@ -331,9 +334,9 @@ body {
     display: block; 
   }
   .r-2 {
-    left: 10% ;
+    left: 0 ;
     width: 70%;
-    height: 17%;
+    height: 20%;
   }
   .text-column {
      margin-top: 20px; 

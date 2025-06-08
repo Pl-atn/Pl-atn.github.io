@@ -206,3 +206,57 @@ body {
     font-size: 0.8em;
   }
 }
+@media (max-width: 400px) { 
+  .wireframe-13 {
+    padding-top: 10%;
+    width: 100%;
+    align-items: center;
+  }
+  .fixed-chevrons-left {
+    left: 10px;
+    top: 10px;
+    width: 50px; 
+    height: auto;
+  }
+  .fixed-chevrons-left img {
+    width: 100%;
+    height: auto;
+  }
+
+  .responsive-img {
+  position: relative;
+  }
+
+  .r-4 {
+    width: 80%;
+    height: auto;
+    right: 20%;
+    top: -215px;
+    z-index: 5;
+  }
+  .the-naked-hero-2 {
+    left: 0;
+    width: 80%;
+    height: auto;
+    top: 60px;
+    z-index: 3;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+  .component-11 .meaning {
+    font-size: 1.1em;
+  }
+  .component-11 > div {
+    font-size: 0.8em;
+  }
+  .component-9 {
+    margin-top: -50%;
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
+  .track-list-items li {
+    font-size: 0.8em;
+  }
+}

@@ -462,3 +462,21 @@ h5,
     height: 30px;
   }
 }
+@media (max-width: 400px) { 
+  .chevrons-left {
+    left: 0;
+    top: 55%;
+    position: absolute;
+  }
+  .wireframe-3 {
+   margin-left: 5%;
+   width: 90%;
+  }
+  .frame-1, .frame-6, .frame-3, .frame-4, .frame-5 {
+    width: 90%;
+    margin: 5px auto;
+  }
+  .group-pics-5 {
+    top: 80px; 
+  }
+}

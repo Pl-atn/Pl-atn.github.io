@@ -262,3 +262,21 @@ p {
 .text-center {
   text-align: center;
 }
+@media (max-width: 400px) { 
+  .section-block {
+    padding: 5px;
+  }
+  .fixed-chevrons-left {
+    left: 10px;
+    top: 10px;
+    width: 10%;
+    height: auto
+  }
+  .chevrons-up {
+    position: center;
+    bottom: 10px;
+    left: 40%;
+    width: 25%;
+    height: auto
+  }
+}
